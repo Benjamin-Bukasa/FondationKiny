@@ -1,0 +1,95 @@
+/* Importation d'une police de text personnalisé  */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+/* Mise en forme globale du navigateur*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind','sans-serif', serif;
+    color:rgb(50, 51, 49);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Mise en forme global de la balise body */
+
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    background:#fff;
+}
+
+/* Mise en forme de header  */
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 50px -12px #0000001a;
+    border-bottom: solid 0.5px lightgray;
+}
+
+/* Mise en forme de la balise ul dans le Nav*/
+
+.navbar .menu .menuList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+
+/* Mise en forme des balises li se trouvant dans la navbar*/
+
+.navbar .menu .menuList li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Mise en forme du formulaire de l'appel en action se trouvant dans la navbar*/
+
+.navbar .actionsBloc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Mise en forme du bouton CTA */
+
+.navbar .actionsBloc .contactBtn{
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    background-color: #fd8282;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Bloc de input et bouton recherche */
+
+.navbar .actionsBloc .formBloc{
+    display: none;
+    padding: 10px 30px 10px 5px;
+    border: solid 0.5px lightgrey;
+    border-radius: 40px;
+}
+
+.navbar .actionsBloc .formBloc input{
+    border:none;
+    outline: none;
+}
+
+
